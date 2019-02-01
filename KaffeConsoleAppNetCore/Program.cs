@@ -1,5 +1,6 @@
 ﻿using kaffe;
 using System;
+using System.Collections.Generic;
 
 namespace KaffeConsoleAppNetCore
 {
@@ -9,7 +10,9 @@ namespace KaffeConsoleAppNetCore
         {
             Console.WriteLine("Hello World!");
 
-            
+            List<Imælk> liste = new List<Imælk>();
+            liste.Add(Cortado);
+            liste.Add(Latte);
 
            
 
